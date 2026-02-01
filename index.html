@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Grab Your Choice</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 40px 20px;
+}
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* 3D Cards */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    color: black;
+    width: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: rotateY(15deg) rotateX(10deg) scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    font-size: 14px;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.whatsapp:hover {
+    background: #1ebe5d;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Grab Your Choice</h1>
+    <p>Your trusted place for quality products & smart choices</p>
+    <header>
+    
+</header>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://bd-live-21.slatic.net/kf/S7afd5f77519a4c4a9e840d0c1e4f8384o.jpg">
+        <h3>Premium Products</h3>
+        <p>We provide high-quality products at the best prices for you.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://s.alicdn.com/@sc04/kf/H6a35a1e72383429796b9233970bcf208w/Y-Pointed-toe-Block-Heel-Retro-New-Chinese-Style-Elegant-Temperament-Cheongsam-Embroidered-Heel-Shoes-Women-Ladies-Female.jpg">
+        <h3>Latest Collection</h3>
+        <p>Discover new and trendy items that match your lifestyle.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://s.alicdn.com/@sc04/kf/H2c5521324b144000aedc37b13d78fbf4T/China-chic-Vintage-Casual-Mahjong-Board-Shoes-Comfortable-Leather-Surface-Women-s-Net-New-Fashion-Sports-Board-Shoes-Women.jpg">
+        <h3>Fast Delivery</h3>
+        <p>Quick and reliable delivery right to your doorstep.</p>
+    </div>
+
+</div>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp"
+   href="https://wa.me/8801313835154"
+   target="_blank">
+   💬 Chat on WhatsApp
+</a>
+
+</body>
+</html>
